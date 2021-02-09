@@ -187,3 +187,12 @@ main {
 .last-ul {
     padding-bottom: 50px;
 }
+
+.foot {
+    width: 1000px;
+    margin: 10px auto;
+    max-width: 100%;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;   
+}
