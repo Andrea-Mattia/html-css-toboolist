@@ -63,7 +63,7 @@ main {
 
 /*LISTS*/
 
-.sec-title {
+.sec-today {
     width: 1000px;
     margin: auto;
     padding: 30px 0px 0px 50px;
@@ -73,7 +73,7 @@ main {
 .list-item {
     width: 1000px;
     margin: auto;
-    padding: 0px 0px 10px 50px;
+    padding-left: 50px;
     max-width: 100%;
     list-style: none;
     margin-bottom: 15px;
@@ -89,7 +89,72 @@ main {
     color: white;
     line-height: 25px;
     background: dodgerblue;
-    border-radius: 5px;
+    border-radius: 10px;
+}
+
+.goals {
+    display: inline-block;
+    width: 70px;
+    height: 25px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 12px;
+    color: white;
+    line-height: 25px;
+    background: rgb(153, 0, 255);
+    border-radius: 10px;
+}
+
+.recr {
+    display: inline-block;
+    width: 80px;
+    height: 25px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 12px;
+    color: white;
+    line-height: 25px;
+    background: rgb(56, 163, 35);
+    border-radius: 10px;
+}
+
+.mobile {
+    display: inline-block;
+    width: 50px;
+    height: 25px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 12px;
+    color: white;
+    line-height: 25px;
+    background: orange;
+    border-radius: 10px;
+}
+
+.websites {
+    display: inline-block;
+    width: 70px;
+    height: 25px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 12px;
+    color: white;
+    line-height: 25px;
+    background: dodgerblue;
+    border-radius: 10px;
+}
+
+.sales {
+    display: inline-block;
+    width: 45px;
+    height: 25px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 12px;
+    color: white;
+    line-height: 25px;
+    background: dodgerblue;
+    border-radius: 10px;
 }
 
 .icon {
@@ -104,4 +169,15 @@ main {
     line-height: 20px;
     border: 1px solid;
     border-radius: 50%;
+}
+
+.icon-remove {
+    color: red;
+}
+
+.sec-title {
+    width: 1000px;
+    margin: auto;
+    padding-left: 50px;
+    max-width: 100%;
 }
