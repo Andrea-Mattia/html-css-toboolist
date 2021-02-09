@@ -9,3 +9,14 @@ body {
     font-family: Arial, Verdana, sans-serif;
     background: #eee;
 }
+
+/* HEADER */
+
+.logo {
+    vertical-align: middle;
+    margin: 10px 0px 10px 15px;
+}
+
+.main-header {
+    background: #fff;
+}
