@@ -63,12 +63,21 @@ main {
 
 /*LISTS*/
 
-.sec-today {
+.sec-task {
     width: 1000px;
     margin: auto;
     padding: 30px 0px 0px 50px;
     max-width: 100%;
 }
+
+.sec-today {
+    width: 1000px;
+    margin: auto;
+    padding-top: 15px;
+    padding-left: 50px;
+    max-width: 100%;
+}
+
 
 .list-item {
     width: 1000px;
@@ -114,7 +123,7 @@ main {
     font-size: 12px;
     color: white;
     line-height: 25px;
-    background: rgb(56, 163, 35);
+    background: rgb(35, 163, 103);
     border-radius: 10px;
 }
 
@@ -131,7 +140,7 @@ main {
     border-radius: 10px;
 }
 
-.websites {
+.website {
     display: inline-block;
     width: 70px;
     height: 25px;
@@ -140,7 +149,7 @@ main {
     font-size: 12px;
     color: white;
     line-height: 25px;
-    background: dodgerblue;
+    background: rgb(250, 132, 151);
     border-radius: 10px;
 }
 
@@ -153,7 +162,7 @@ main {
     font-size: 12px;
     color: white;
     line-height: 25px;
-    background: dodgerblue;
+    background: rgb(129, 190, 37);
     border-radius: 10px;
 }
 
@@ -175,9 +184,6 @@ main {
     color: red;
 }
 
-.sec-title {
-    width: 1000px;
-    margin: auto;
-    padding-left: 50px;
-    max-width: 100%;
+.last-ul {
+    padding-bottom: 50px;
 }
